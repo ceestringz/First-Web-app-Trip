@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trip</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header class="hero">
+        <div class="content">
+            <h1>Breeze Trip</h1>
+            <p>A fun Trip to the Beach</p>
+            <a class="btn" href="#register">Register</a>
+        </div>
+    </header>
+    <main>
+        <marquee direction="left">Please make sure you come with a friend and remember it not free for your frind 😂
+        </marquee>
+        <section class="class">
+            <h2>Choose your class</h2>
+            <div class="cards">
+                <div class="card">
+                    <h3>Basic</h3>
+                    <hr />
+                    <p>Designed for people who simply want to enjoy the beach without spending too much.</p>
+                    <ul>
+                        <li>Beach entrance fee</li>
+                        <li>Transportation to and from the beach</li>
+                        <li>Basic refreshment (water and soft drink)</li>
+                        <li>Access to beach activities</li>
+                        <li>Group entertainment and music</li>
+                        <li>Group photographs</li>
+                    </ul>
+                    <span class="price">GH¢500</span>
+                </div>
+                <div class="card">
+                    <h3>Standard</h3>
+                    <hr />
+                    <p>Designed for people who want extra comfort, food and more activities. Everything in Basic, plus:
+                    </p>
+                    <ul>
+                        <li>Full meal (lunch)</li>
+                        <li>Extra drinks and refreshments</li>
+                        <li>Reserved group seating area</li>
+                        <li>Access to selected beach games</li>
+                        <li>Special entertainment activities</li>
+                        <li>Professional group photographs</li>
+                    </ul>
+                    <span class="price">GH¢1500</span>
+                </div>
+                <div class="card">
+                    <h3>Premium</h3>
+                    <hr />
+                    <p>Designed for people who want the complete beach experience with extra luxury and comfort.
+                        Everything in Standard, plus:</p>
+                    <ul>
+                        <li>VIP seating or private cabana</li>
+                        <li>Special food package</li>
+                        <li>Unlimited selected refreshments</li>
+                        <li>Complimentary cocktail or mocktail</li>
+                        <li>Priority access to activities</li>
+                        <li>Exclusive beach games or water activities</li>
+                        <li>Personalized souvenirs</li>
+                        <li>Dedicated photo and video coverage</li>
+                        <li>Special VIP treatment</li>
+                    </ul>
+                    <span class="price">GH¢3000</span>
+                </div>
+            </div>
+        </section>
+        <section id="register">
+            <h2>Register now</h2>
+            <form class="form-card">
+                <div class="field">
+                    <label for="fullname">Full name</label>
+                    <input type="text" id="fullname" name="fullname" placeholder="Daniel Nkansah" required>
+                </div>
+                <div class="field">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" placeholder="yourname@example.com" required>
+                </div>
+                <div class="field">
+                    <label for="phone">Phone number</label>
+                    <input type="tel" id="phone" name="phone" placeholder="0240000000" pattern="0[0-9]{9}"
+                        title="Enter 10 digits starting with 0" required>
+                </div>
+                <div class="field">
+                    <label for="workshop">Class</label>
+                    <select id="workshop" name="workshop" required>
+                        <option value="">Select a class</option>
+                        <option value="web">Basic</option>
+                        <option value="mobile">Standard</option>
+                        <option value="cyber">Premium</option>
+                    </select>
+                </div>
+                <button class="btn" type="submit">Register</button>
+            </form>
+        </section>
+    </main>
+    <footer class="footer">
+        <p>This trip is organized by an NGO from nowhere</p>
+    </footer>
+</body>
+
+</html>
