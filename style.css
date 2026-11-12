@@ -170,4 +170,12 @@ select{
     color: #fff;
     text-align: center;
 }
+@media (max-width: 600px) {
+    .hero {
+        padding: 48px 20px;
+    }
 
+    .hero h1 {
+        font-size: 100px;
+    }
+}
